@@ -35,6 +35,6 @@ csv_df.write \
 
 # 아래와 같이 작성해도 동일하게 동작
 # csv_df.write.mode('overwrite').parquet('hdfs:///home/spark/lesson/parquet/companies')
-
+#
 print('Complete: Save companies as parquet')
 
